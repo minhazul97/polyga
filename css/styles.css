@@ -6,11 +6,11 @@
     font-style: normal;
 }
 .container {
-    max-width: 1860px;
-    padding-left: 280px;
-    padding-right: 160px;
-    width: 100%;
-    margin: 0 auto;
+    max-width: 1440px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .visually-hidden {
     border-width: 0px;
