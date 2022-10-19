@@ -149,12 +149,12 @@ body{
 .footer__bottom-image-wrapper {
     width: 200px;
     height: 65px;
+    margin-bottom: 25px;
 }
 .footer__bottom-image {
     width: 100%;
     object-fit: cover;
 }
-
 .footer__social-icons {
     display: flex;
     flex-direction: row;
