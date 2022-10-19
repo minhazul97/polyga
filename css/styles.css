@@ -8,11 +8,11 @@ body{
     position: relative;
 }
 .container {
-    max-width: 0px;
-    padding-left: 40px;
-    padding-right: 160px;
-    width: 100%;
-    margin: 0 auto;
+    max-width: 1440px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .visually-hidden {
     border-width: 0px;
@@ -116,7 +116,6 @@ body{
 }
 .input {
     width: 421px;
-    //height: 63px;
     background-color: #ffffff;
     border: none;
     font-size: 15px;
