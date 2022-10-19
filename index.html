@@ -5,9 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="assets/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/styles.css">
+    
 </head>
 <body>
+    <!-- header start-->
     <header class="header">
         <div class="container">
             <div class="header-top"> 
@@ -41,43 +44,45 @@
               </nav>
         </div>
     </header>
+    <!-- header end-->
+    <!-- footer start-->
     <footer class="footer">
         <div class="container">
-            <div class="footer-wrapper">
-                <div>
-                    <img src="assets/footer-logo.svg" alt="">
+            <div class="footer-logo-wrapper">
+                <img class="footer-logo" src="assets/footer-logo.svg" alt="">
+            </div>
+            <p class="footer-text">Join Our Monthly Newsletter</p>
+            <form action="" class="form">
+                <label class="visually-hidden " for="fname">First name:</label>
+                <input class="input" type="email" id="fname" name="fname" placeholder="YOUR EMAIL">
+                <input class="btn" type="submit" value="Subscribe">
+            </form>
+            <div class="footer-bottom">
+                <div class="footer-bottom-left">
+                    <div class="footer-bottom-image-wrapper">
+                        <img class="footer-bottom-image" src="assets/logo.svg" alt="">
+                    </div>
+                    <div class="social-icons">
+                        <a class="social-icon" href=""><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                        <a class="social-icon" href=""><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+                        <a class="social-icon" href=""><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                        <a class="social-icon" href=""><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                        <a class="social-icon" href=""><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                    </div>
                 </div>
-                <p>Join Our Monthly Newsletter</p>
-                <form action="">
-                    <label for="fname">First name:</label>
-                    <input type="email" id="fname" name="fname">
-                    <input type="submit" value="Subscribe">
-                </form>
-                <div>
-                    <div>
-                        <div>
-                            <img src="assets/logo.svg" alt="">
-                        </div>
-                        <div>
-                            <a href=""></a>
-                            <a href=""></a>
-                            <a href=""></a>
-                            <a href=""></a>
-                            <a href=""></a>
-                        </div>
-                    </div>
-                    <div>
-                        <a href=""></a>
-                        <a href=""></a>
-                        <a href=""></a>
-                        <a href=""></a>
-                        <a href=""></a>
-                    </div>
+                <div class="footer-link">
+                    <a class="" href=""></a>
+                    <a class="footer-link-item" href="">About</a>
+                    <a class="footer-link-item" href="">Contact</a>
+                    <a class="footer-link-item" href="">Support</a>
+                    <a class="footer-link-item" href=""> Privacy Policy</a>
+                    
                 </div>
             </div>
 
         </div>
 
     </footer>
+    <!-- footer end-->
 </body>
 </html>
