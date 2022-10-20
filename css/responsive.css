@@ -1,11 +1,37 @@
 @media screen and (min-width: 768px) {
+    /*Header Scetion Start*/
+    .header {
+        padding-top: 50px;
+        padding-bottom: 40px;
+    }
+    .header__top {
+        margin-bottom: 20px;
+    }
+    .header__logo-wrapper {
+        width: 155px;
+        height: 50px;
+    }
     .bars{
         display: none;
     }
     .cross{
         display: none;
     }
-
+    .header__link {
+        display: flex;
+        align-items: center;
+        gap: 32px;
+    }
+    .header__nav {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+    .header__nav-mobile {
+        display: none;
+    }
+    /*Header Scetion End*/
     /*Resources Page Hero Scetion Start*/
     .hero {
         padding-top: 90px;
@@ -21,10 +47,15 @@
     /*Resources Page Hero Scetion End*/
 
     /*Resources Page Videos Scetion Start*/
+    .videos {
+        padding-top: 130px;
+        padding-bottom: 65px;
+    }
     .videos__card {
         display: flex;
         align-items: center;
         gap: 40px;
+        margin-bottom: 95px;
     }
     .videos__card-video-wrapper {
         max-width: 585px;
@@ -37,6 +68,10 @@
     }
     /*Resources Page Videos Scetion End*/
     /*Footer Scetion Start*/
+    .footer {
+        padding-top: 75px;
+        padding-bottom: 30px
+    }
     .footer__logo-wrapper {
         width: 70px;
         margin-bottom: 45px;
@@ -72,6 +107,10 @@
         max-width: 620px;
         text-align: left;
     }
+    .footer__bottom-image-wrapper {
+        width: 200px;
+        height: 65px;
+    }
     .footer__social-icon {
         font-size: 28px;
     }
@@ -82,18 +121,8 @@
 }
 @media screen and (min-width: 992px) {
     
-
-    /*Resources Page Hero Scetion*/
-    /*Resources Page Videos Scetion*/
+    /*Resources Page Videos Scetion Start*/
     .videos__card {
         gap: 80px;
-    }
-    .videos__card-video-wrapper {
-        max-width: 585px;
-        max-height: 325px;
-        flex: 0 0 45%;
-    }
-    .videos__card-video{
-        width: 100%;
     }
 }
