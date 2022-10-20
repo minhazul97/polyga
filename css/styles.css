@@ -87,6 +87,9 @@ body{
     padding-top: 50px;
     padding-bottom: 40px;
 }
+.bars{
+
+}
 .header__logo-wrapper {
     width: 155px;
     height: 50px;
@@ -145,6 +148,47 @@ body{
     width: 100%;
 }
 
+/*Resources Page Hero Scetion*/
+.hero {
+    padding-top: 50px;
+    padding-bottom: 45px;
+    background-color: #1F2745;
+}
+.hero__heading {
+    font-size: 32px;
+    letter-spacing: 0px;
+    color: #ffffff;
+    font-weight: 700;
+    text-align: center;
+}
+.hero__text {
+    font-size: 16px;
+    letter-spacing: 0px;
+    line-height: 18px;
+    color: #ffffff;
+    font-weight: 400;
+    text-align: center;
+}
+/*Resources Page Videos Scetion*/
+.videos {
+    padding-top: 130px;
+    padding-bottom: 160px;
+}
+.videos__card-heading {
+    font-size: 24px;
+    letter-spacing: 2px;
+    line-height: 10px;
+    color: #272643;
+    font-weight: 700;
+}
+.videos__card-text {
+    font-size: 18px;
+    letter-spacing: 2px;
+    line-height: 18px;
+    color: #272643;
+    font-weight: 400;
+}
+
 /*footer*/
 .footer {
     background-color: #F9F9F9;
@@ -175,7 +219,7 @@ body{
     margin: auto;
     margin-bottom: 30px;
 }
-.input {
+.footer__input {
     width: 421px;
     /* height: 63px; */
     background-color: #ffffff;
