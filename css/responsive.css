@@ -6,7 +6,7 @@
         display: none;
     }
 
-    /*Resources Page Hero Scetion*/
+    /*Resources Page Hero Scetion Start*/
     .hero {
         padding-top: 90px;
         padding-bottom: 75px;
@@ -18,7 +18,9 @@
         font-size: 24px;
         line-height: 28px;
     }
-    /*Resources Page Videos Scetion*/
+    /*Resources Page Hero Scetion End*/
+
+    /*Resources Page Videos Scetion Start*/
     .videos__card {
         display: flex;
         align-items: center;
@@ -33,6 +35,50 @@
         width: 100%;
         height: 100%
     }
+    /*Resources Page Videos Scetion End*/
+    /*Footer Scetion Start*/
+    .footer__logo-wrapper {
+        width: 70px;
+        margin-bottom: 45px;
+    }
+    .footer__text {
+        color: #05041f;
+    }
+    .footer__text {
+        font-size: 28px;
+        line-height: 30px;
+        margin-bottom: 45px;
+    }
+    .footer__input {
+        font-size: 15px;
+        line-height: 16px;
+        padding: 25px 25px 20px;
+    }
+    .footer__btn {
+        background-color: #243756;
+        font-size: 15px;
+        line-height: 16px;
+        color: #ffffff;
+        font-weight: 600;
+        border: 1px solid #1A80FF;
+        padding: 25px 15px 20px;
+        text-transform: uppercase;
+    }
+    .footer__bottom {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row-reverse;
+        margin: auto;
+        max-width: 620px;
+        text-align: left;
+    }
+    .footer__social-icon {
+        font-size: 28px;
+    }
+    .footer__link {
+        margin-bottom: 0;
+    }
+    /*Footer Scetion End*/
 }
 @media screen and (min-width: 992px) {
     

@@ -177,18 +177,21 @@ body{
 .videos__card-heading {
     font-size: 24px;
     letter-spacing: 2px;
-    line-height: 10px;
+    line-height: 24px;
     color: #272643;
     font-weight: 700;
 }
 .videos__card-text {
     font-size: 18px;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     line-height: 18px;
     color: #272643;
     font-weight: 400;
 }
-
+.videos__card-video{
+    width: 100%;
+    height: 100%
+}
 /*footer*/
 .footer {
     background-color: #F9F9F9;
@@ -197,9 +200,10 @@ body{
 }
 .footer__logo-wrapper {
     margin: 0 auto;
-    width: 70px;
-    margin-bottom: 45px;
+    width: 55px;
+    margin-bottom: 32px;
 }
+
 .footer__logo{
     width: 100%;
     object-fit: cover;
@@ -207,10 +211,10 @@ body{
 .footer__text {
     color: #05041f;
     font-weight: 400;
-    font-size: 28px;
-    line-height: 30px;
+    font-size: 22px;
+    line-height: 22px;
     text-align: center;
-    margin-bottom: 45px;
+    margin-bottom: 32px;
 }
 .footer__form {
     max-width: 590px;
@@ -220,38 +224,34 @@ body{
     margin-bottom: 30px;
 }
 .footer__input {
-    width: 421px;
-    /* height: 63px; */
+    width: 100%;
     background-color: #ffffff;
     border: none;
-    font-size: 15px;
-    line-height: 16px;
+    font-size: 12px;
+    line-height: 13px;
     color: #05041f;
     font-weight: 400;
-    padding: 25px 25px 20px;
+    padding: 16px 16px 14px;
     
 }
 .footer__btn {
     background-color: #243756;
-    font-size: 15px;
-    line-height: 16px;
+    font-size: 12px;
+    line-height: 13px;
     color: #ffffff;
     font-weight: 600;
     border: 1px solid #1A80FF;
-    padding: 25px 15px 20px;
+    padding: 16px 12px 14px;
     text-transform: uppercase;
 }
 
 .footer__bottom {
-    display: flex;
-    justify-content: space-between;
-    margin: auto;
-    max-width: 620px;
+    text-align: center;
 }
 .footer__bottom-image-wrapper {
     width: 200px;
     height: 65px;
-    margin-bottom: 25px;
+    margin: auto;
 }
 .footer__bottom-image {
     width: 100%;
@@ -260,16 +260,20 @@ body{
 .footer__social-icons {
     display: flex;
     flex-direction: row;
+    justify-content: center;
     gap: 8px;
+    margin-top: 25px;
 }
 .footer__social-icon {
     color: #3C3E3E;
-    font-size: 28px;
+    font-size: 20px;
     padding: 4px;
+    
 }
 .footer__link {
     display: flex;
     flex-direction: column;
+    margin-bottom: 25px;
 }
 .footer__link-item {
     font-size: 14px;
